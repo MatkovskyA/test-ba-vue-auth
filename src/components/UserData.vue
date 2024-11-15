@@ -7,7 +7,7 @@
       <UserInfo userTitle="Фамилия/имя:" userInfo="Матковский Анатолий"/>
       <UserInfo userTitle="Возраст:" userInfo="33 года/лет"/>
       <UserInfo userTitle="Город проживания:" userInfo="Москва"/>
-      <UserInfo userTitle="Профессия: " userInfo="Фронтенд разраотчик"/>
+      <UserInfo userTitle="Профессия: " userInfo="Фронтенд разработчик"/>
       <UserInfo userTitle="Семейное положение:" userInfo="Женат"/>
     </div>
   </div>
