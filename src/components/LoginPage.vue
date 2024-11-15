@@ -38,9 +38,14 @@ const router = useRouter();
 const loading = ref(false);
 
 const login = () => {
+  if(username.value.trim() === '' && password.value.trim() === '') {
+    errorMessage.value = 'Введите данные для входа';
+    return
+  }
   loading.value = true;
   errorMessage.value = ''; // Сбрасываем сообщение об ошибке
-
+  
+  
   setTimeout(() => {
     if (username.value === 'user' && password.value === '123456') {
       router.push('/dashboard'); // Переход на маршрут карточки пользователя
@@ -48,7 +53,7 @@ const login = () => {
       errorMessage.value = 'Неверный логин или пароль';
     }
     loading.value = false; // Останавливаем загрузку
-  }, 2000);
+  }, 1500);
 };
 </script>
 
