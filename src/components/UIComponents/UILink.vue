@@ -1,5 +1,5 @@
 <template>
-  <a :href="formattedHref" target="_blank">
+  <a :href="formattedHref" target="_blank" class="text-[14px] sm:text-[16px]">
     {{ text }} 
     <slot></slot>
   </a>

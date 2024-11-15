@@ -19,12 +19,6 @@
         placeholder="******"
         id="password"
       />
-      <!-- <label for="username"> Логин: 
-        <input type="text" id="username" v-model="username">
-      </label>
-      <label for="password"> Пароль: 
-        <input type="password" id="password" v-model="password">
-      </label> -->
       <button>Войти</button>
       <p v-if="errorMessage" class="error text-red-300 font-bold p-1 bg-white rounded-xl">{{ errorMessage }}</p>
     </form>
